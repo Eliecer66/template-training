@@ -2,13 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="StyleSheet" href="../Frontend-test/css/styles.css" type="text/css">
   <title>Frontend Test</title>
 </head>
 <body>
-
-  <section>Here goes Section 1</section>
-  <section>Here goes Section 2</section>
-  <section>Here goes Section 3</section>
-
+  <section class="sectionI">
+    <div class="first_container">
+      <div class="item_left">
+        <h1><span class="first_word">Prueba de</span><br><span class="last_word">Theming</span></h1>
+      </div>
+      <div class="item_right">
+        <div class="text_right">
+          <h2>We'</span>re on the same curve</h2>
+          <span>
+            Your bones don't break, mine do. That's clear. Your cells react<br>
+            to bacteria and viruses diferently than mine. You don't get<br> 
+            sick, I do. That's also clear.
+          </span> 
+        </div>
+        <div class="landscape"></div>
+      </div>
+    </div>
+    <div class="display"></div>
+      <div class="item_2">
+        <div class="text_item_2">
+          <h2 class="title">Just opposite ends</h2>
+          <p>
+            But for some reason, you and I react the exact same way to water.<br>
+            We swallow it too fast, we choke. We get some in pur lungs, we<br>
+            drown. However unreal it may seem, we are connected, you and I.<br>
+            We're on the same curve, just on opposite ends. 
+          </p>
+        </div>
+        <div class="album">
+         <div class="arrow"><img src="../Frontend-test/assets/arrow-left.png" alt="arrow"></div>
+          <img class="image" src="../Frontend-test/assets/tile-5.png" alt="arrow">
+          <img class="image" src="../Frontend-test/assets/tile-1.png" alt="arrow">
+          <img class="image" src="../Frontend-test/assets/tile-2.png" alt="arrow">
+          <img class="image" src="../Frontend-test/assets/tile-3.png" alt="arrow">
+          <img class="image" src="../Frontend-test/assets/tile-4.png" alt="arrow">
+          <div class="arrow"><img src="../Frontend-test/assets/arrow-right.png" alt="arrow"></div>
+        </div>
+      </div>
+  </section>
+  <section class="sectionII">
+    <div class="first_box_middle">
+      <p class="estilo_titulo">That's Cesar's world <span>HARSH REALITY</span></p>
+        <p class="line">Like you, I used to think the word was this
+        great place where everybody lived by the same
+        standards I did, then some kid with a nail
+        showed me I was living in his world, a world
+        where chaos rules not order, a world where
+        righteousness is not rewarded. That's Cesar's
+        world, and if you're not willing to play by his
+        rules, then you're gonna have to pay the price.</p>
+    </div>
+    <div class="second_box_middle">
+      <table border = 1>
+      <caption colspan="4" class="estilo_titulo">List style: Circles. <span>FEATURING FEATURES</span></caption>
+        <tr>
+          <td class="one">
+            <P>USER <br><span>PROFILES</span></P>
+            <img src="../Frontend-test/assets/user.png" alt="user">
+          </td>
+          <td class="two">
+            <P>SOME<br><span>GRAPHS</span></P>
+            <img src="../Frontend-test/assets/barchart.png" alt="barchart">
+          </td>
+          <td class="three">
+            <P>MULTI <br><span>CHATS</span></P>
+            <img src="../Frontend-test/assets/chat.png" alt="chat">
+          </td>
+          <td class="four">
+            <P>MANY<br> <span>EMAILS</span></P>
+            <img src="../Frontend-test/assets/mail.png" alt="mail">
+          </td>
+        </tr>
+        </table>
+    </div> 
+  </section>
+  <section class="sectionIII">
+    <form action="registrar_datos.php" method="post">
+      <legend>Login to Super Duper App</legend>
+      <input class="user" type="text" placeholder="Username or Email" name="Username" size="50">
+      <input class="password" type="text" placeholder="Password" name="Password" size="50" >
+      <div class="fondo">
+        <input type="checkbox" name="recordatorio"><span>Remember me on this computer</span> 
+        <input class="boton" type="submit" value="Login">
+      </div>
+    </form>
+  </section>
 </body>
 </html>
