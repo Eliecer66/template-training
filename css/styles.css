@@ -52,6 +52,7 @@
 
 .first_container {
     border-style: solid;
+    background-color: #2470a3;
     border-color: transparent;
     box-sizing: border-box;
     display: flex;
