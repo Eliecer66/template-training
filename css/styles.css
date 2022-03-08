@@ -52,7 +52,7 @@
 
 .first_container {
     border-style: solid;
-    border-color: transparent;
+    border-color: red;
     box-sizing: border-box;
     display: flex;
     height: 465px;
