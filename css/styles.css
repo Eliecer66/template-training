@@ -52,13 +52,13 @@
 
 .first_container {
     border-style: solid;
-    background-color: #2470a3;
-    border-color: transparent;
+    border-color: purple;
     box-sizing: border-box;
     display: flex;
     height: 465px;
     margin-bottom: 0px;
     padding: 3px;
+
 }
 .item_left {    
     margin: 1px;
