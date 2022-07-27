@@ -315,53 +315,46 @@ td p span {
     bottom:52px;
     left: 80px;
 }
-/*
- *Section three
- */
+
+/*Section three*/
+
 .sectionIII {
     background-color: #c93c20 ;
-    height: 500px;
     display: flex;
-    justify-content: center;
-    padding: 100px;
+    padding: 7%;
+    flex-direction: column;
+    align-items: center;
 }
 form {
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 280px;
     border-style:outset;
     border-color: transparent;
     border-radius: 1%;
+    padding: 1%;
 }
 .user, .password {
-    padding: 5px 10px;
+    padding: 14px 10px;
     margin: 3% 7% ;
-    height: 10%;
     border-style:solid;
     border-color: silver;
     border-width: thin;
     border-radius: 1%;
 }
 form span {
-    margin-right: 12%;
-    position: relative;
-    bottom:2px;
-    border-style: solid transparent;
-    margin-left: 8px;
     border-width: thin;
     font-size: small;
-    padding: 1%;
+    margin-left: 10px;
     font-family: roboto;
+    color: #5e5454;
 
 }
 .fondo {
-    margin: 4% 4.5%;
-    height: 25%;
-    padding: 1%;
-    border-style: solid;
-    border-color: transparent;
+    padding: 4% 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 legend {
     font-family: roboto;
@@ -375,18 +368,20 @@ legend {
     border-style: solid;
 }
 .boton {
-    margin: 0% 1%;
+    margin: 0% 0% 0% 13%;
+    padding: 2% 5%;
     border-style:solid;
-    font-family: roboto;
     font-weight: 600;
     color: #555555;
     border-width: thin;
     border-radius: 50px;
     background-color: #deeef8;
     border-color: silver;
-    box-shadow: 0px 1px silver;
-    height: 70%;
-    width: 22%;
+}
+.reset-link {
+    color: white;
+    margin-top: 30px;
+    font-family: roboto;
 }
 ::placeholder {
     font-family: roboto;
