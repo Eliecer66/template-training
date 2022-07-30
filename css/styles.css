@@ -57,7 +57,7 @@ body {
 
 .first_container {
     display: flex;
-    padding:36px;
+    padding: 36px;
 }
 
 .item_left {    
@@ -112,7 +112,7 @@ body {
 }
 
 .landscape {
-    background-image:url(../assets/Layer-2.png);
+    background-image: url(../assets/Layer-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     filter: contrast(123%);
@@ -150,7 +150,7 @@ body {
     position: relative;
     top: 45px;
     height: fit-content;
-    filter:invert(1);
+    filter: invert(1);
     opacity: 2;
 }
 
@@ -161,16 +161,16 @@ body {
 
 .image {
     border-style: ridge;
-    border-width:thick;
+    border-width: thick;
     border-color: transparent;
     width: 16%;
 }
 
 .image:hover {
     border-collapse: collapse;
-    border-style:ridge;
-    border-width:thick;
-    border-color:cornflowerblue;
+    border-style: ridge;
+    border-width: thick;
+    border-color: cornflowerblue;
 }
 
 .display {
@@ -230,7 +230,7 @@ body {
 .line{
     border-style: solid;
     border-color: transparent;
-    white-space:normal;
+    white-space: normal;
 }
 
 .estilo_titulo {
@@ -258,7 +258,7 @@ body {
 table {
     table-layout: fixed;
     border-collapse: collapse;
-    border-top:transparent;
+    border-top: transparent;
     border-bottom: transparent;
     border-right: transparent;
     border-left: transparent;
@@ -275,8 +275,8 @@ table {
 }
 
 .two {
-    position:relative;
-    bottom:40px;
+    position: relative;
+    bottom: 40px;
     border-color:#5DADE2 ;
     border-top: transparent;
     border-bottom: transparent;
@@ -296,8 +296,8 @@ table {
     border-right: transparent;
     border-bottom: transparent;
     border-top: transparent;
-    position:relative;
-    bottom:40px;
+    position: relative;
+    bottom: 40px;
 }
 
 table .estilo_titulo {
@@ -306,7 +306,7 @@ table .estilo_titulo {
     padding: 2%;
     font-size: 2.35em;
     text-align: center;
-    border-style:ridge;
+    border-style: ridge;
     border-right: transparent;
     border-left: transparent;
     border-width: thin;
@@ -331,13 +331,13 @@ td p span {
 
 .one img, .three img {
     position: relative;
-    bottom:218px;
+    bottom: 218px;
     left: 75px;
 }
 
 .two img, .four img {
     position: relative;
-    bottom:52px;
+    bottom: 52px;
     left: 80px;
 }
 
@@ -355,7 +355,7 @@ form {
     background-color: white;
     display: flex;
     flex-direction: column;
-    border-style:outset;
+    border-style: outset;
     border-color: transparent;
     border-radius: 1%;
     padding: 1%;
@@ -364,7 +364,7 @@ form {
 .user, .password {
     padding: 14px 10px;
     margin: 3% 7% ;
-    border-style:solid;
+    border-style: solid;
     border-color: silver;
     border-width: thin;
     border-radius: 1%;
@@ -376,7 +376,6 @@ form span {
     margin-left: 10px;
     font-family: roboto;
     color: #5e5454;
-
 }
 
 .fondo {
@@ -400,9 +399,9 @@ legend {
 }
 
 .boton {
-    margin: 0% 0% 0% 13%;
+    margin: 0 0 0 13%;
     padding: 2% 5%;
-    border-style:solid;
+    border-style: solid;
     font-weight: 600;
     color: #555555;
     border-width: thin;
@@ -468,11 +467,10 @@ input:focus {
     }
     .item_2 {
         font-size: 14px;
-        border-color:gold;
+        border-color: gold;
     }
     
     .display {
-       
         top: 335px;
         width: 450px;
         height: 450px;
@@ -487,13 +485,14 @@ input:focus {
         border-color: transparent;
         padding: 10px;
     }
+
     .first_box_middle {
         color: grey;
         border-style: ridge;
         border-color: transparent;
         font-family: roboto;
         display: flex;
-        justify-content:stretch;
+        justify-content: stretch;
         flex-direction: column;
         text-align: right;
         font-size: 1.15em;
@@ -503,15 +502,17 @@ input:focus {
         margin: 1px;
         padding: 10px;
     }
+    
     .estilo_titulo {
-        border-style:solid transparent;
+        border-style: solid transparent;
         font-size: 1.3em;
         font-family: Oswald;
-        color:#2470a3;
+        color: #2470a3;
         font-weight:800;
         padding: 7px 1px 1px 5px;
         margin: 19px 0px 18px 1px;
     }
+
     .estilo_titulo span {
         color:#5DADE2;
         font-family: roboto;
@@ -519,39 +520,44 @@ input:focus {
         letter-spacing: 1px;
         margin: 10px;
     }
+
     .second_box_middle {
         border-style: ridge;
         border-color: transparent;
         display: flex;
         padding: 2px;
-        justify-content:flex-end;
+        justify-content: flex-end;
         width: 65%;    
     }
+
     table {
         table-layout: fixed;
         border-collapse: collapse;
-        border-top:transparent;
+        border-top: transparent;
         border-bottom: transparent;
         border-right: transparent;
         border-left: transparent;
         
     }
+
     .one {
         position: relative;
         top: 50px;
-        border-color:#5DADE2 ;
+        border-color: #5DADE2 ;
         border-top: transparent;
         border-bottom: transparent;
         border-left: transparent;
     }
+
     .two {
-        position:relative;
+        position: relative;
         bottom:40px;
-        border-color:#5DADE2 ;
+        border-color: #5DADE2 ;
         border-top: transparent;
         border-bottom: transparent;
         border-left: transparent;
     }
+
     .three {
         position: relative;
         top: 50px;
@@ -560,26 +566,29 @@ input:focus {
         border-bottom: transparent;
         border-left: transparent;
     }
+
     .four {
-        position:relative;
-        bottom:40px;
+        position: relative;
+        bottom: 40px;
     }
+
     table .estilo_titulo {
         margin-top: 3%;
         margin-bottom: 1.5%;
         padding: 2%;
         font-size: 1.3em;
         text-align: center;
-        border-style:ridge;
+        border-style: ridge;
         border-right: transparent;
         border-left: transparent;
         border-width: thin;
         border-color: #5DADE2;
     }
+
     td p {
-        font-size:3em;
+        font-size: 3em;
         font-family: roboto;
-        font-weight:bolder;
+        font-weight: bolder;
         text-align: center;
         color: gray;
         border-style: ridge;
