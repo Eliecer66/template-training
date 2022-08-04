@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.simple-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-one-img {
+  height: 200px;
+  width: 300px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.section-one .bottom {
+  background-color: pink;
+}
