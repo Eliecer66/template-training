@@ -7,99 +7,124 @@
   <title>Frontend Test</title>
 </head>
 <body>
-  <section class="sectionI">
-    <div class="first_container">
-      <div class="item_left">
-        <h1><span class="first_word">Prueba de</span><br><span class="last_word">Theming</span></h1>
-      </div>
-      <div class="item_right">
-        <div class="landscape">
-          <div class="text_right">
-            <h2>We're on the same curve</h2>
-            <p>
-              Your bones don't break, mine do. That's clear. Your cells react<br>
-              to bacteria and viruses diferently than mine. You don't get<br> 
-              sick, I do. That's also clear.
-            </p> 
+  <section class="section sectionI">
+    <div class="container first-container">
+      <div class="first_container">
+        <div class="item_left">
+          <h1>
+            <span class="first_word">Prueba de</span>
+            <span class="last_word">Theming</span>
+          </h1>
+        </div>
+        <div class="item_right">
+          <div class="landscape">
+            <div class="text_right">
+              <h2 class="header header-one">We're on the same curve</h2>
+              <p>
+                <span class="line">Your bones don't break, mine do. That's clear. Your cells react</span>
+                <span class="line">to bacteria and viruses diferently than mine. You don't get</span>
+                <span class="line">sick, I do. That's also clear.</span>
+              </p> 
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="display"></div>
-      <div class="item_2">
+    <div class="item_2">
+      <div class="container second-container">
+        <img class="display" src="assets/apple-display.png" alt="">
         <div class="text_item_2">
-          <h2 class="title">Just opposite ends</h2>
-          <p>
-            But for some reason, you and I react the exact same way to water.<br>
-            We swallow it too fast, we choke. We get some in pur lungs, we<br>
-            drown. However unreal it may seem, we are connected, you and I.<br>
-            We're on the same curve, just on opposite ends. 
-          </p>
+          <h2 class="header header-2">Just opposite ends</h2>
+            <p>
+              <span class="line line-2">But for some reason, you and I react the exact same way to water.</span>
+              <span class="line line-2">We swallow it too fast, we choke. We get some in pur lungs, we</span>
+              <span class="line line-2">drown. However unreal it may seem, we are connected, you and I.</span>
+              <span class="line line-2">We're on the same curve, just on opposite ends.</span>
+            </p>
         </div>
-        <div class="album">
-         <div class="arrow"><img src="./assets/arrow-left.png" alt="arrow"></div>
-          <img class="image" src="./assets/tile-5.png" alt="arrow">
-          <img class="image" src="./assets/tile-1.png" alt="arrow">
-          <img class="image" src="./assets/tile-2.png" alt="arrow">
-          <img class="image" src="./assets/tile-3.png" alt="arrow">
-          <img class="image" src="./assets/tile-4.png" alt="arrow">
-          <div class="arrow"><img src="./assets/arrow-right.png" alt="arrow"></div>
-        </div>
+        <ul class="album">
+          <li><div class="arrow"><img src="./assets/arrow-left.png" alt="arrow"></div></li>
+          <li><img class="image" src="./assets/tile-5.png" alt="arrow"></li>
+          <li><img class="image" src="./assets/tile-1.png" alt="arrow"></li>
+          <li><img class="image" src="./assets/tile-2.png" alt="arrow"></li>
+          <li><img class="image" src="./assets/tile-3.png" alt="arrow"></li>
+          <li><img class="image" src="./assets/tile-4.png" alt="arrow"></li>
+          <li><div class="arrow"><img src="./assets/arrow-right.png" alt="arrow"></div></li>
+        </ul>
       </div>
-  </section>
-  <section class="sectionII">
-    <div class="first_box_middle">
-      <p class="estilo_titulo">That's Cesar's world <span>HARSH REALITY</span></p>
-        <p class="line">
-        Like you, I used to think the word was this<br> 
-        great place where everybody lived by the same<br>
-        standards I did, then some kid with a nail<br>
-        showed me I was living in his world, a world<br>
-        where chaos rules not order, a world where<br>
-        righteousness is not rewarded. That's Cesar's<br>
-        world, and if you're not willing to play by his<br>
-        rules, then you're gonna have to pay the price.<br>
-      </p>
     </div>
-    <div class="second_box_middle">
-      <table border = 1>
-      <caption colspan="4" class="estilo_titulo">List style: Circles. <span>FEATURING FEATURES</span></caption>
-        <tr>
-          <td class="one">
-            <P>USER <br><span>PROFILES</span></P>
-            <img src="./assets/user.png" alt="user">
-          </td>
-          <td class="two">
-            <P>SOME<br><span>GRAPHS</span></P>
-            <img src="./assets/barchart.png" alt="barchart">
-          </td>
-          <td class="three">
-            <P>MULTI <br><span>CHATS</span></P>
-            <img src="./assets/chat.png" alt="chat">
-          </td>
-          <td class="four">
-            <P>MANY<br> <span>EMAILS</span></P>
-            <img src="./assets/mail.png" alt="mail">
-          </td>
-        </tr>
-        </table>
-    </div> 
   </section>
-  <section class="sectionIII">
-    <form action="registrar_datos.php" method="post">
-      <legend>Login to Super Duper App</legend>
-      <input class="user" type="text" placeholder="Username or Email" name="Username" size="50">
-      <input class="password" type="text" placeholder="Password" name="Password" size="50" >
-      <div class="fondo">
-        <div>
-          <input type="checkbox" name="recordatorio">
-          <span>Remember me on this computer</span>
-        </div> 
-        <input class="boton" type="submit" value="Login">
+  <section class="section sectionII">
+    <div class="container third-container">
+      <div class="first_box_middle">
+        <p class="header-table header-3">That's Cesar's world 
+          <span>HARSH REALITY</span>
+        </p>
+        <p class="line.1">
+          <span class="line">Like you, I used to think the word was this</span>
+          <span class="line">great place where everybody lived by the same</span>
+          <span class="line">standards I did, then some kid with a nail</span>
+          <span class="line">showed me I was living in his world, a world</span>
+          <span class="line">where chaos rules not order, a world where</span>
+          <span class="line">righteousness is not rewarded. That's Cesar's</span>
+          <span class="line">world, and if you're not willing to play by his</span>
+          <span class="line">rules, then you're gonna have to pay the price.</span>
+        </p>
       </div>
-    </form>
-    <div>
-      <p class="reset-link"><strong>Forgot your password?</strong> click here to reset it</p>
+      <div class="second_box_middle">
+        <table border = 1>
+        <caption colspan="4" class="header-table">List style: Circles. <span>FEATURING FEATURES</span></caption>
+          <tr>
+            <td class="one">
+              <p>
+                user 
+                <span>profiles</span>
+              </p>
+              <img src="./assets/user.png" alt="user">
+            </td>
+            <td class="two">
+              <p>
+                some
+                <span>graphs</span>
+              </p>
+              <img src="./assets/barchart.png" alt="barchart">
+            </td>
+            <td class="three">
+              <p>
+                multi 
+                <span>chats</span>
+              </p>
+              <img src="./assets/chat.png" alt="chat">
+            </td>
+            <td class="four">
+              <p>
+                many 
+                <span>email</span>
+              </p>
+              <img src="./assets/mail.png" alt="mail">
+            </td>
+          </tr>
+          </table>
+      </div> 
+    </div>
+  </section>
+  <section class="section sectionIII">
+    <div class="container fourth-container">
+      <form>
+        <legend>Login to Super Duper App</legend>
+        <input class="user" type="text" placeholder="Username or Email" name="Username" size="50">
+        <input class="password" type="password" placeholder="Password" name="Password" size="50" >
+        <div class="fondo">
+          <label class="form-control">
+            <input type="checkbox" name="recordatorio">
+            Remember me on this computer
+          </label> 
+          <input type="submit" class="boton" value="Login">
+        </div>
+      </form>
+      <div>
+        <p class="reset-link"><strong>Forgot your password?</strong><a href='/home/eliecer66/Training/Templating/template-training/index.html'>click here</a></p>
+      </div>
     </div>
   </section>
 </body>
