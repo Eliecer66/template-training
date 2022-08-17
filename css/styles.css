@@ -108,7 +108,7 @@ body {
 
 .text_right {
     transform: rotate(5deg);
-    color: white;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     padding: 32px;
@@ -153,6 +153,7 @@ body {
     right: 3%;
     padding: 1%;
     margin-top: 1%;
+    list-style: none;
 }
 
 .arrow {
@@ -194,7 +195,7 @@ body {
 }
 
 .text_item_2 {
-    color: rgba(255, 255, 255, 0.774);
+    color: #ffffff;
     width: 52%;
     font-family: droid-serif;
     align-self: flex-end;
@@ -329,12 +330,14 @@ td p {
     color: #959393;
     padding: 23% 19px;
     line-height: 70%;
+    text-transform: uppercase;
 }
 
 td p span {
     font-size: 0.6em;
     text-align: center;
     font-family: Roboto-thin;
+    display: block;
 }
 
 .second_box_middle img {
@@ -367,7 +370,7 @@ td p span {
 }
 
 form {
-    background-color: white;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     border-style: outset;
@@ -380,7 +383,7 @@ form {
     padding: 14px 10px;
     margin: 3% 7% ;
     border-style: solid;
-    border-color: silver;
+    border-color: #839192;
     border-width: thin;
     border-radius: 1%;
 }
@@ -445,7 +448,7 @@ legend {
     padding: 15px;
     margin-bottom: 3%;
     border-color: transparent;
-    border-bottom-color: lightgray;
+    border-bottom-color: #ccd1d1;
     text-align: center;
     border-width: thin;
     border-style: solid;
@@ -461,23 +464,24 @@ legend {
     border-width: thin;
     border-radius: 50px;
     background-color: #deeef8;
-    border-color: silver;
+    border-color: #ccd1d1;
 }
 
 .reset-link {
-    color: white;
+    color: #ffffff;
     margin-top: 30px;
     font-family: roboto;
     font-size: 1.7em;
 }
 
 .reset-link a {
-    color: white;
+    color: #ffffff;
 }
 
 ::placeholder {
     font-family: roboto;
-    color: silver;
+    color:  #839192
+    ;
     font-size: 110%;
 }
 
@@ -489,7 +493,7 @@ input:hover {
     border-color: transparent;
     background-color: #2988c7;
     transition: 1s;
-    color: white;
+    color: #ffffff;
 }
 
 input:focus {
